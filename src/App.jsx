@@ -1,6 +1,7 @@
 /** Importing components */
 import ErrorExample from "./tutorials/ErrorExample";
 import UseStateBasics from "./tutorials/useStateBasics";
+import UseStateArrayExample from "./tutorials/UseStateArrayExample";
 const App = () => {
   return (
     <div className="container">
@@ -8,7 +9,8 @@ const App = () => {
       {/**Manage state basics examples */}
       {/**This example won't work */}
       {/** <ErrorExample />   */}
-      <UseStateBasics />
+      {/**<UseStateBasics /> */}
+      <UseStateArrayExample />
     </div>
   );
 };
