@@ -2,6 +2,9 @@
 import ErrorExample from "./tutorials/ErrorExample";
 import UseStateBasics from "./tutorials/useStateBasics";
 import UseStateArrayExample from "./tutorials/UseStateArrayExample";
+import UseStateObject from "./tutorials/UseStateObject";
+import UseStateGotcha from "./tutorials/UseStateGotcha";
+
 const App = () => {
   return (
     <div className="container">
@@ -10,7 +13,9 @@ const App = () => {
       {/**This example won't work */}
       {/** <ErrorExample />   */}
       {/**<UseStateBasics /> */}
-      <UseStateArrayExample />
+      {/** <UseStateArrayExample />*/}
+      {/**  <UseStateObject />*/}
+      <UseStateGotcha />
     </div>
   );
 };
