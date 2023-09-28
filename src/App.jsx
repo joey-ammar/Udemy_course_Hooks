@@ -1,10 +1,15 @@
-/** Importing components */
-import ErrorExample from "./tutorials/ErrorExample";
+/** Importing components *
+/*
+import ErrorExample from "./tutorials/useState/ErrorExample";
 import UseStateBasics from "./tutorials/useStateBasics";
 import UseStateArrayExample from "./tutorials/UseStateArrayExample";
 import UseStateObject from "./tutorials/UseStateObject";
 import UseStateGotcha from "./tutorials/UseStateGotcha";
-
+import CodeExample from "./tutorials/useEffect/CodeExample";
+import UseEffectBasics from "./tutorials/useEffect/UseEffectBasics";
+import MultipleEffects from "./tutorials/useEffect/MultipleEffects";
+*/
+import FetchDataExample from "../src/tutorials/useEffect/fetchDataExample";
 const App = () => {
   return (
     <div className="container">
@@ -15,7 +20,12 @@ const App = () => {
       {/**<UseStateBasics /> */}
       {/** <UseStateArrayExample />*/}
       {/**  <UseStateObject />*/}
-      <UseStateGotcha />
+      {/**
+      <UseStateGotcha /> **/}
+      {/**<CodeExample /> */}
+      {/**<UseEffectBasics /> */}
+      {/** <MultipleEffects /> */}
+      <FetchDataExample />
     </div>
   );
 };
