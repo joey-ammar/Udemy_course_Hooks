@@ -12,8 +12,13 @@ import FetchDataExample from "../src/tutorials/useEffect/fetchDataExample";
 import MultipleReturnsBasics from "./tutorials/conditionalRendering/MultipleReturns";
 import MultipleReturnsFetchData from "./tutorials/conditionalRendering/MultipleReturnsFetchData";
 import ShortCircuitOverview from "./tutorials/conditionalRendering/ShortcutOverview";
-import ToggleChallenge from "./tutorials/conditionalRendering/ToggleChallenge";*/
+import ToggleChallenge from "./tutorials/conditionalRendering/ToggleChallenge";
 import UserChallenge from "./tutorials/conditionalRendering/UserChallenge";
+import CleanupFunction from "./tutorials/conditionalRendering/CleaningFunction";
+import EventListenerExample from "./tutorials/conditionalRendering/EventListenerExample";
+*/
+import JavascriptLevarage from "./tutorials/conditionalRendering/JavascriptLevarage";
+
 const App = () => {
   return (
     <div className="container">
@@ -34,7 +39,10 @@ const App = () => {
       {/** <MultipleReturnsFetchData /> */}
       {/** <ShortCircuitOverview /> */}
       {/**    <ToggleChallenge />*/}
-      <UserChallenge />
+      {/** <UserChallenge /> */}
+      {/** <CleanupFunction /> */}
+      {/**  <EventListenerExample /> */}
+      <JavascriptLevarage />
     </div>
   );
 };
