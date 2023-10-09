@@ -16,9 +16,10 @@ import ToggleChallenge from "./tutorials/conditionalRendering/ToggleChallenge";
 import UserChallenge from "./tutorials/conditionalRendering/UserChallenge";
 import CleanupFunction from "./tutorials/conditionalRendering/CleaningFunction";
 import EventListenerExample from "./tutorials/conditionalRendering/EventListenerExample";
-*/
 import JavascriptLevarage from "./tutorials/conditionalRendering/JavascriptLevarage";
-
+import Forms from "./tutorials/forms/Forms";
+*/
+import UserChallenge from "./tutorials/forms/UserChallenge";
 const App = () => {
   return (
     <div className="container">
@@ -42,7 +43,9 @@ const App = () => {
       {/** <UserChallenge /> */}
       {/** <CleanupFunction /> */}
       {/**  <EventListenerExample /> */}
-      <JavascriptLevarage />
+      {/**  <JavascriptLevarage /> */}
+      {/** <Forms /> */}
+      <UserChallenge />
     </div>
   );
 };
