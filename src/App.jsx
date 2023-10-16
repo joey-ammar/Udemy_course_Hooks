@@ -18,8 +18,14 @@ import CleanupFunction from "./tutorials/conditionalRendering/CleaningFunction";
 import EventListenerExample from "./tutorials/conditionalRendering/EventListenerExample";
 import JavascriptLevarage from "./tutorials/conditionalRendering/JavascriptLevarage";
 import Forms from "./tutorials/forms/Forms";
-*/
 import UserChallenge from "./tutorials/forms/UserChallenge";
+import MultipleInputs from "./tutorials/forms/MultipleInputs";
+import Checkbox from "./tutorials/forms/Checkbox";
+import SelectedInputs from "./tutorials/forms/SelectedInputs";
+import FormApi from "./tutorials/forms/FormApi";
+*/
+import UseRefs from "./tutorials/useRefs/UseRefs";
+
 const App = () => {
   return (
     <div className="container">
@@ -44,8 +50,13 @@ const App = () => {
       {/** <CleanupFunction /> */}
       {/**  <EventListenerExample /> */}
       {/**  <JavascriptLevarage /> */}
+      {/** <UserChallenge /> */}
       {/** <Forms /> */}
-      <UserChallenge />
+      {/*  <MultipleInputs />*/}
+      {/**<Checkbox /> */}
+      {/** <SelectedInputs /> */}
+      {/** <FormApi /> */}
+      <UseRefs />
     </div>
   );
 };
