@@ -23,13 +23,15 @@ import MultipleInputs from "./tutorials/forms/MultipleInputs";
 import Checkbox from "./tutorials/forms/Checkbox";
 import SelectedInputs from "./tutorials/forms/SelectedInputs";
 import FormApi from "./tutorials/forms/FormApi";
-*/
 import UseRefs from "./tutorials/useRefs/UseRefs";
+import CustomHooks from "./tutorials/customHooks/CustomHooks";
+import FetchData from "./tutorials/customHooks/FetchData";
+import CustomApi from "./tutorials/customApi/CustomApi";
+*/
 
 const App = () => {
   return (
     <div className="container">
-      <h2>Advanced React</h2>
       {/**Manage state basics examples */}
       {/**This example won't work */}
       {/** <ErrorExample />   */}
@@ -56,7 +58,10 @@ const App = () => {
       {/**<Checkbox /> */}
       {/** <SelectedInputs /> */}
       {/** <FormApi /> */}
-      <UseRefs />
+      {/**   <UseRefs /> */}
+      {/** <CustomHooks /> */}
+      {/** <FetchData /> */}
+      {/**  <CustomApi /> */}
     </div>
   );
 };
