@@ -28,8 +28,11 @@ import CustomHooks from "./tutorials/customHooks/CustomHooks";
 import FetchData from "./tutorials/customHooks/FetchData";
 import CustomApi from "./tutorials/customApi/CustomApi";
 */
+import { useGlobalContext } from "./context";
 
 const App = () => {
+  const { name } = useGlobalContext();
+  console.log(name);
   return (
     <div className="container">
       {/**Manage state basics examples */}
@@ -62,6 +65,7 @@ const App = () => {
       {/** <CustomHooks /> */}
       {/** <FetchData /> */}
       {/**  <CustomApi /> */}
+      <h1>HI</h1>
     </div>
   );
 };
