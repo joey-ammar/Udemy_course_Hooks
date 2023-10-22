@@ -27,12 +27,14 @@ import UseRefs from "./tutorials/useRefs/UseRefs";
 import CustomHooks from "./tutorials/customHooks/CustomHooks";
 import FetchData from "./tutorials/customHooks/FetchData";
 import CustomApi from "./tutorials/customApi/CustomApi";
-*/
 import { useGlobalContext } from "./context";
+*/
+import Reduce from "./reducer/Reduce";
 
 const App = () => {
-  const { name } = useGlobalContext();
-  console.log(name);
+  /**    const { name } = useGlobalContext();
+  console.log(name);*/
+
   return (
     <div className="container">
       {/**Manage state basics examples */}
@@ -65,7 +67,7 @@ const App = () => {
       {/** <CustomHooks /> */}
       {/** <FetchData /> */}
       {/**  <CustomApi /> */}
-      <h1>HI</h1>
+      <Reduce />
     </div>
   );
 };
