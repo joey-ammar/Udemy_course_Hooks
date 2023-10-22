@@ -28,8 +28,9 @@ import CustomHooks from "./tutorials/customHooks/CustomHooks";
 import FetchData from "./tutorials/customHooks/FetchData";
 import CustomApi from "./tutorials/customApi/CustomApi";
 import { useGlobalContext } from "./context";
-*/
 import Reduce from "./reducer/Reduce";
+*/
+import LowerState from "./performance/performance";
 
 const App = () => {
   /**    const { name } = useGlobalContext();
@@ -67,7 +68,8 @@ const App = () => {
       {/** <CustomHooks /> */}
       {/** <FetchData /> */}
       {/**  <CustomApi /> */}
-      <Reduce />
+      {/** <Reduce /> */}
+      <LowerState />
     </div>
   );
 };
